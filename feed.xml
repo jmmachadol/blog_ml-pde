@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>Machine Learning &amp; Partial Differential Equations</title>
+    <link href="https://jmmachadol.github.io/blog_ml-pde/feed.xml" rel="self" />
+    <link href="https://jmmachadol.github.io/blog_ml-pde" />
+    <updated>2023-02-17T14:04:53-05:00</updated>
+    <author>
+        <name>Jose Manuel Machado-Loaiza</name>
+    </author>
+    <id>https://jmmachadol.github.io/blog_ml-pde</id>
+
+    <entry>
+        <title>Hola, les quiero hablar cómo cree mi primer blog</title>
+        <author>
+            <name>Jose Manuel Machado-Loaiza</name>
+        </author>
+        <link href="https://jmmachadol.github.io/blog_ml-pde/hola-les-quiero-hablar-como-cree-mi-primer-blog.html"/>
+        <id>https://jmmachadol.github.io/blog_ml-pde/hola-les-quiero-hablar-como-cree-mi-primer-blog.html</id>
+
+        <updated>2023-02-17T14:04:53-05:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+</feed>
