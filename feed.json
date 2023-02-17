@@ -9,17 +9,5 @@
         "name": "Jose Manuel Machado-Loaiza"
     },
     "items": [
-        {
-            "id": "https://jmmachadol.github.io/blog_ml-pde/hola-les-quiero-hablar-como-cree-mi-primer-blog.html",
-            "url": "https://jmmachadol.github.io/blog_ml-pde/hola-les-quiero-hablar-como-cree-mi-primer-blog.html",
-            "title": "Hola, les quiero hablar cómo cree mi primer blog",
-            "author": {
-                "name": "Jose Manuel Machado-Loaiza"
-            },
-            "tags": [
-            ],
-            "date_published": "2023-02-17T14:04:53-05:00",
-            "date_modified": "2023-02-17T14:04:53-05:00"
-        }
     ]
 }
