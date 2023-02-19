@@ -3,21 +3,21 @@
     <title>Machine Learning &amp; Partial Differential Equations</title>
     <link href="https://jmmachadol.github.io/blog_ml-pde/feed.xml" rel="self" />
     <link href="https://jmmachadol.github.io/blog_ml-pde" />
-    <updated>2023-02-19T13:32:07-05:00</updated>
+    <updated>2023-02-19T13:34:59-05:00</updated>
     <author>
         <name>Jose Manuel Machado-Loaiza</name>
     </author>
     <id>https://jmmachadol.github.io/blog_ml-pde</id>
 
     <entry>
-        <title>How to do a literature review? My experience in reviewing the Physics-Informed Neural Networks literature and some practical advice</title>
+        <title>My experience doing a literature review: some practical advice</title>
         <author>
             <name>Jose Manuel Machado-Loaiza</name>
         </author>
         <link href="https://jmmachadol.github.io/blog_ml-pde/how-to-do-a-literature-review-my-experience-in-reviewing-the-physics-informed-neural-networks-literature-and-some-practical-advice.html"/>
         <id>https://jmmachadol.github.io/blog_ml-pde/how-to-do-a-literature-review-my-experience-in-reviewing-the-physics-informed-neural-networks-literature-and-some-practical-advice.html</id>
 
-        <updated>2023-02-19T13:32:07-05:00</updated>
+        <updated>2023-02-19T13:34:59-05:00</updated>
             <summary>
                 <![CDATA[
                     A literature review is an essential component of any research project, as it provides an overview of the current state of knowledge in a particular field. By identifying, selecting, and evaluating relevant literature, a literature review helps to establish the context of a research topic&hellip;
@@ -26,11 +26,11 @@
         <content type="html">
             <![CDATA[
                 <p>A literature review is an essential component of any research project, as it provides an overview of the current state of knowledge in a particular field. By identifying, selecting, and evaluating relevant literature, a literature review helps to establish the context of a research topic and to identify gaps in the existing body of knowledge.</p>
-<h1>What is Literature?</h1>
+<h6>What is Literature?</h6>
 <p>When we talk about literature, we are referring to the works that researchers consult to understand and investigate a particular field. This can include academic books, professional journals, conference proceedings, theses, research reports, and electronic databases. Literature reviews are also useful for identifying other works by the same researchers, which can help to build a more comprehensive understanding of a particular research topic.</p>
-<h1>The Benefits of a Literature Review</h1>
+<h6>The Benefits of a Literature Review</h6>
 <p>A good literature review can help to answer important questions about a research topic, such as why it is necessary to study a particular problem and what assumptions need to be tested. By providing a historical context for a research topic, a literature review can also help to establish the importance of a particular problem and identify gaps in existing research. Furthermore, by summarizing and integrating individual findings, a literature review can help to address broader, integrative questions about a particular topic.</p>
-<h1>Steps for Conducting a Literature Review</h1>
+<h6>Steps for Conducting a Literature Review</h6>
 <p>There are several key steps involved in conducting a literature review:</p>
 <ol>
 <li>
