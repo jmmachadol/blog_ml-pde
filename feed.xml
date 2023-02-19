@@ -3,12 +3,44 @@
     <title>Machine Learning &amp; Partial Differential Equations</title>
     <link href="https://jmmachadol.github.io/blog_ml-pde/feed.xml" rel="self" />
     <link href="https://jmmachadol.github.io/blog_ml-pde" />
-    <updated>2023-02-19T13:34:59-05:00</updated>
+    <updated>2023-02-19T14:27:14-05:00</updated>
     <author>
         <name>Jose Manuel Machado-Loaiza</name>
     </author>
     <id>https://jmmachadol.github.io/blog_ml-pde</id>
 
+    <entry>
+        <title>Literature review: Physics-Informed Machine Learning</title>
+        <author>
+            <name>Jose Manuel Machado-Loaiza</name>
+        </author>
+        <link href="https://jmmachadol.github.io/blog_ml-pde/literature-review-physics-informed-machine-learning.html"/>
+        <id>https://jmmachadol.github.io/blog_ml-pde/literature-review-physics-informed-machine-learning.html</id>
+
+        <updated>2023-02-19T14:27:14-05:00</updated>
+            <summary>
+                <![CDATA[
+                    Literature Review: Physics-Informed Neural Networks (PINNs) Physics-Informed Neural Networks (PINNs) is an area of research that combines neural networks with physical principles to create more accurate and efficient predictive models. The PINNs approach has been applied to a range of fields, including fluid dynamics, solid&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h1>Literature Review: Physics-Informed Neural Networks (PINNs)</h1>
+<p>Physics-Informed Neural Networks (PINNs) is an area of research that combines neural networks with physical principles to create more accurate and efficient predictive models. The PINNs approach has been applied to a range of fields, including fluid dynamics, solid mechanics, material science, geophysics, astrophysics, quantum physics, and machine learning itself.</p>
+<p>The main advantage of PINNs is that they can improve the accuracy of neural network models by incorporating prior knowledge of the underlying physics. This can help to overcome the limitations of traditional data-driven methods, which may struggle to account for physical laws and constraints.</p>
+<p>Research has shown that PINNs can be effective in a wide range of applications. In fluid dynamics, PINNs has been used to predict the behavior of complex fluid flows, such as turbulent flows, with greater accuracy than traditional computational fluid dynamics methods. PINNs has also been used to design more efficient wind turbines and optimize the shape of aircraft wings.</p>
+<p>In solid mechanics, PINNs has been used to predict the deformation and failure of materials under different loading conditions, such as the behavior of soft materials under compression. PINNs has also been applied in material science to predict the properties of novel materials with potential applications in fields such as energy storage and conversion.</p>
+<p>In geophysics, PINNs has been used to model the behavior of seismic waves and to predict the occurrence and magnitude of earthquakes. In astrophysics, PINNs has been used to study the evolution of galaxies and the behavior of dark matter. In quantum physics, PINNs has been used to simulate quantum systems with a large number of interacting particles.</p>
+<p>PINNs have also been applied to other areas of physics such as plasma physics, optical physics, acoustics, and thermal transport. For example, in plasma physics, PINNs have been used to predict the behavior of plasma instabilities in fusion reactors. In optical physics, PINNs have been used to design novel optical devices with specific functionalities. In acoustics, PINNs have been used to predict the sound field and the propagation of sound waves in complex geometries. In thermal transport, PINNs have been used to design more efficient heat exchangers and predict the temperature distribution in electronic devices.</p>
+<p>Despite the potential benefits of PINNs, there are also challenges associated with their implementation. One of the main challenges is choosing the structure of the neural network model and ensuring that it is compatible with the underlying physics. Another challenge is obtaining high-quality training data that captures the relevant physical processes. Additionally, the interpretability and robustness of PINN models need further research.</p>
+<p>Overall, the literature suggests that PINNs is a promising research area that has the potential to revolutionize many fields of science and engineering. Further research is needed to refine PINNs techniques and to investigate their full potential in a wide range of applications.</p>
+<h2>References</h2>
+<ul>
+<li>Cheng, X., Lu, Z., Meng, X</li>
+</ul>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>My experience doing a literature review: some practical advice</title>
         <author>
@@ -17,7 +49,7 @@
         <link href="https://jmmachadol.github.io/blog_ml-pde/how-to-do-a-literature-review-my-experience-in-reviewing-the-physics-informed-neural-networks-literature-and-some-practical-advice.html"/>
         <id>https://jmmachadol.github.io/blog_ml-pde/how-to-do-a-literature-review-my-experience-in-reviewing-the-physics-informed-neural-networks-literature-and-some-practical-advice.html</id>
 
-        <updated>2023-02-19T13:34:59-05:00</updated>
+        <updated>2023-02-19T14:22:51-05:00</updated>
             <summary>
                 <![CDATA[
                     A literature review is an essential component of any research project, as it provides an overview of the current state of knowledge in a particular field. By identifying, selecting, and evaluating relevant literature, a literature review helps to establish the context of a research topic&hellip;
@@ -50,6 +82,20 @@
 </li>
 </ol>
 <p><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">Therefore, literature reviews are an essential component of any research project. By providing an overview of the existing state of knowledge in a particular field, literature reviews help to establish the context of a research topic, identify gaps in existing research, and address broader, integrative questions about a particular topic. By following the steps outlined above, researchers can ensure that their literature reviews are comprehensive, rigorous, and useful for building knowledge in their chosen field.</span></p>
+<hr>
+<p>Pasos básicos que realicé para la revisión de literatura de mi proyecto:</p>
+<p>1. Encontrar papers</p>
+<p>Con las bases bibliográficas disponibles en la universidad (Web of Science, Scopus, etc.) comencé mi primera aproximación al tema de las aplicaciones del machine learnign y sus aplicaciones en campos como ecuaciones diferenciales, redes neuronales y mecánica computacional. Para ello es crucial utilizar una ecuación de búsqueda e ir refinando/filtrando los resultados de acuerdo al interés particular de cada uno. Otra muy buena opción es utilizar connectedpapers.com cuya herramienta permite encontrar la semejanza que hay entre publicaciones científicas relacionados con un paper de entrada. </p>
+<p>En este paso resulta de mucha ayuda revisar artículos científicos tipo review.</p>
+<p>2. Almacenar papers</p>
+<p>En este paso resulta crucial tener un repositorio donde puedas ir albergando todos los papers que vas leyendo y tener un control de versiones disponibles. Zotero es una herramienta increible porque, además de ser open-source, permite exportar las referencias en archivo .bib y sincronizarlo con otro software como Mendeley. Además, tener notas y anotaciones del paper mismo. </p>
+<p>3. Lectura del paper</p>
+<p>Recomiendo leer 'How to read a Paper' de Department of Electrical Engineering, Stanford University, 2016 (disponible en <a href="https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf">https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf</a>) </p>
+<p>La publicación "Cómo leer un paper" proporciona una guía práctica para ayudar a los lectores a comprender y analizar artículos científicos. El artículo sugiere una serie de pasos que deben seguirse al leer un paper, incluyendo la identificación del problema de investigación, la revisión de la literatura relevante, la evaluación de la metodología utilizada, la interpretación de los resultados y la evaluación crítica del trabajo.</p>
+<p>Además, la publicación brinda consejos útiles para maximizar la eficacia de la lectura, tales como leer activamente, tomar notas, definir el vocabulario y utilizar fuentes adicionales para complementar la comprensión del tema. Se destaca la importancia de la comunicación clara y efectiva en los papers y se sugiere que los autores sigan ciertas pautas de redacción para garantizar que su trabajo sea accesible y comprensible para los lectores.</p>
+<p>En general, la publicación ofrece un conjunto completo de herramientas y estrategias para ayudar a los lectores a navegar por los papers científicos y comprender mejor la investigación presentada.</p>
+<p>4. Escribir las ideas principales del paper:</p>
+<p>Crea notas, preguntas, trata de priorizar las ideas que se presentan en el texto. ¿What is the big picture? y finalmente cómo dicho paper puede aportar en la revisión de la literatura que estás realizando</p>
 <p> </p>
 <p> </p>
 <p> </p>
