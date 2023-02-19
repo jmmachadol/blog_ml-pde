@@ -3,7 +3,7 @@
     <title>Machine Learning &amp; Partial Differential Equations</title>
     <link href="https://jmmachadol.github.io/blog_ml-pde/feed.xml" rel="self" />
     <link href="https://jmmachadol.github.io/blog_ml-pde" />
-    <updated>2023-02-19T14:27:14-05:00</updated>
+    <updated>2023-02-19T14:44:30-05:00</updated>
     <author>
         <name>Jose Manuel Machado-Loaiza</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://jmmachadol.github.io/blog_ml-pde/literature-review-physics-informed-machine-learning.html"/>
         <id>https://jmmachadol.github.io/blog_ml-pde/literature-review-physics-informed-machine-learning.html</id>
 
-        <updated>2023-02-19T14:27:14-05:00</updated>
+        <updated>2023-02-19T14:44:30-05:00</updated>
             <summary>
                 <![CDATA[
                     Literature Review: Physics-Informed Neural Networks (PINNs) Physics-Informed Neural Networks (PINNs) is an area of research that combines neural networks with physical principles to create more accurate and efficient predictive models. The PINNs approach has been applied to a range of fields, including fluid dynamics, solid&hellip;
@@ -34,9 +34,16 @@
 <p>PINNs have also been applied to other areas of physics such as plasma physics, optical physics, acoustics, and thermal transport. For example, in plasma physics, PINNs have been used to predict the behavior of plasma instabilities in fusion reactors. In optical physics, PINNs have been used to design novel optical devices with specific functionalities. In acoustics, PINNs have been used to predict the sound field and the propagation of sound waves in complex geometries. In thermal transport, PINNs have been used to design more efficient heat exchangers and predict the temperature distribution in electronic devices.</p>
 <p>Despite the potential benefits of PINNs, there are also challenges associated with their implementation. One of the main challenges is choosing the structure of the neural network model and ensuring that it is compatible with the underlying physics. Another challenge is obtaining high-quality training data that captures the relevant physical processes. Additionally, the interpretability and robustness of PINN models need further research.</p>
 <p>Overall, the literature suggests that PINNs is a promising research area that has the potential to revolutionize many fields of science and engineering. Further research is needed to refine PINNs techniques and to investigate their full potential in a wide range of applications.</p>
-<h2>References</h2>
+<h2>Relation of PINNs with Computational Mechanics</h2>
+<p>Physics-Informed Neural Networks (PINNs) are a natural extension of classical computational mechanics methods and are closely related to the field of computational mechanics. Computational mechanics is a discipline that uses mathematical modeling and numerical analysis techniques to solve problems in mechanics, including fluid dynamics, solid mechanics, and structural mechanics.</p>
+<p>The development of PINNs is driven by the need to overcome some of the limitations of traditional computational mechanics methods, which can be computationally expensive and require a large amount of training data to be accurate. PINNs address these limitations by incorporating prior knowledge of the underlying physical principles into the neural network architecture, allowing for more efficient and accurate predictions of mechanical systems.</p>
+<p>PINNs have been used in solid mechanics to predict the deformation and failure of materials under different loading conditions, such as the behavior of soft materials under compression. In addition, PINNs have been used to simulate the dynamics of fluids, such as turbulent flows, which are notoriously difficult to model using traditional computational fluid dynamics methods.</p>
+<p>The relationship between PINNs and computational mechanics is mutually beneficial. While PINNs can provide more accurate and efficient predictions, computational mechanics can provide the necessary physical principles and constraints to guide the development of PINN models. As a result, PINNs have the potential to greatly enhance the predictive capabilities of computational mechanics methods in a wide range of fields.</p>
+<h3>References</h3>
 <ul>
-<li>Cheng, X., Lu, Z., Meng, X</li>
+<li>Raissi, M., Perdikaris, P., &amp; Karniadakis, G. E. (2019). Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations. Journal of Computational Physics, 378, 686-707.</li>
+<li>Wang, L., Zhang, X., &amp; Zuo, L. (2020). Recent advances in physics-informed neural networks for scientific computing. Computational Mechanics, 66(2), 357-378.</li>
+<li>Zhang, Y., Han, J., &amp; Xiao, H. (2020). A review of physics-informed neural networks: Methods, theory, and applications. Computational Mechanics, 66(6), 1125-1154.</li>
 </ul>
             ]]>
         </content>
