@@ -3,7 +3,7 @@
     <title>Machine Learning &amp; Partial Differential Equations</title>
     <link href="https://jmmachadol.github.io/blog_ml-pde/feed.xml" rel="self" />
     <link href="https://jmmachadol.github.io/blog_ml-pde" />
-    <updated>2023-02-28T15:10:16-05:00</updated>
+    <updated>2023-02-28T15:20:53-05:00</updated>
     <author>
         <name>Jose Manuel Machado-Loaiza</name>
     </author>
@@ -19,7 +19,7 @@
             <category term="Review"/>
             <category term="Machine learning"/>
 
-        <updated>2023-02-28T15:00:44-05:00</updated>
+        <updated>2023-02-28T15:20:53-05:00</updated>
             <summary>
                 <![CDATA[
                     Literature Review: Physics-Informed Neural Networks (PINNs) Physics-Informed Neural Networks (PINNs) is an area of research that combines neural networks with physical principles to create more accurate and efficient predictive models. The PINNs approach has been applied to a range of fields, including fluid dynamics, solid&hellip;
