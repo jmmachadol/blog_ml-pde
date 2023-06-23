@@ -3,12 +3,65 @@
     <title>Machine Learning &amp; Partial Differential Equations</title>
     <link href="https://jmmachadol.github.io/blog_ml-pde/feed.xml" rel="self" />
     <link href="https://jmmachadol.github.io/blog_ml-pde" />
-    <updated>2023-02-28T15:27:50-05:00</updated>
+    <updated>2023-06-23T17:14:49-05:00</updated>
     <author>
         <name>Jose Manuel Machado-Loaiza</name>
     </author>
     <id>https://jmmachadol.github.io/blog_ml-pde</id>
 
+    <entry>
+        <title>Parámetros e hiperparámetros de las redes neuronales. ¿Qué son y cuáles son sus diferencias?</title>
+        <author>
+            <name>Jose Manuel Machado-Loaiza</name>
+        </author>
+        <link href="https://jmmachadol.github.io/blog_ml-pde/parametros-e-hiperparametros-de-las-redes-neuronales-que-son-y-cuales-son-sus-diferencias.html"/>
+        <id>https://jmmachadol.github.io/blog_ml-pde/parametros-e-hiperparametros-de-las-redes-neuronales-que-son-y-cuales-son-sus-diferencias.html</id>
+
+        <updated>2023-06-23T17:14:49-05:00</updated>
+            <summary>
+                <![CDATA[
+                    En el campo del aprendizaje automático y las redes neuronales, los términos "parámetros" e "hiperparámetros" son a menudo fuentes de confusión. En esta entrada del blog, desentrañaremos estos conceptos, explicaremos su importancia y mostraremos sus diferencias. Los parámetros son las variables internas de un modelo&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <div class="container">
+<p class="lead">En el campo del aprendizaje automático y las redes neuronales, los términos "parámetros" e "hiperparámetros" son a menudo fuentes de confusión. En esta entrada del blog, desentrañaremos estos conceptos, explicaremos su importancia y mostraremos sus diferencias.</p>
+<h2>¿Qué son los parámetros?</h2>
+<p>Los parámetros son las variables internas de un modelo que se ajustan durante el entrenamiento de la red neuronal. Estos incluyen los pesos y sesgos en una red neuronal. Durante el entrenamiento, el algoritmo de aprendizaje busca el valor óptimo de estos parámetros para minimizar el error de predicción del modelo. Estos parámetros son fundamentales para el rendimiento del modelo, ya que determinan la forma en que la red neuronal procesa las entradas para producir una salida. Su optimización adecuada puede marcar la diferencia entre un modelo altamente preciso y uno que apenas funciona.</p>
+<h2>¿Qué son los hiperparámetros?</h2>
+<p>Los hiperparámetros son variables que definen la estructura de la red (como el número de capas ocultas, la cantidad de nodos en cada capa) y cómo se entrena el modelo (como la tasa de aprendizaje, el número de épocas, el tamaño del lote). Los hiperparámetros son establecidos antes del entrenamiento y no se cambian durante el mismo. Estos pueden verse como los 'meta' parámetros que guían todo el proceso de aprendizaje. Los hiperparámetros correctos pueden acelerar el entrenamiento y mejorar el rendimiento final del modelo, mientras que los hiperparámetros incorrectos pueden hacer que el modelo sea lento para entrenar o incluso impida su convergencia.</p>
+<h2>Diferencias clave</h2>
+<p>La diferencia fundamental entre parámetros e hiperparámetros radica en cómo se utilizan en el proceso de aprendizaje automático:</p>
+<ul>
+<li>Los parámetros son aprendidos del conjunto de datos durante el entrenamiento del modelo. Los hiperparámetros, en cambio, se establecen antes del entrenamiento y proporcionan orientación al algoritmo de aprendizaje sobre cómo se debe realizar este proceso.</li>
+<li>Los parámetros se utilizan para hacer predicciones con el modelo, mientras que los hiperparámetros dictan la estructura del modelo y cómo se debe aprender.</li>
+</ul>
+<h2>Descripción de los hiperparámetros más comunes en redes neuronales</h2>
+<h3>Capas (layer)</h3>
+<p>Las capas se refieren a la profundidad de la red neuronal. Es un hiperparámetro que indica cuántas capas de nodos tiene una red. Más capas generalmente permite a la red aprender representaciones más complejas, pero puede llevar a sobreajuste y a un mayor tiempo de entrenamiento.</p>
+<h3>Nodos (node)</h3>
+<p>Los nodos se refieren al número de neuronas en una capa particular. Al igual que las capas, un mayor número de nodos puede permitir representaciones más complejas, pero también puede llevar a sobreajuste y a tiempos de entrenamiento más largos.</p>
+<h3>Función de Activación (activation)</h3>
+<p>La función de activación define la salida de una neurona basada en su entrada. Algunas funciones comunes incluyen la función sigmoide, tangente hiperbólica y ReLU. Cada una tiene sus propias propiedades que pueden influir en cómo una red neuronal aprende.</p>
+<h3>Solver</h3>
+<p>El solver se refiere al algoritmo de optimización utilizado para entrenar la red. Los valores comunes incluyen 'sgd' (descenso de gradiente estocástico), 'adam' y 'lbfgs'. La elección del solver puede tener un impacto significativo en la velocidad de entrenamiento y la calidad del modelo final.</p>
+<h3>Tolerancia (tol)</h3>
+<p>La tolerancia es un valor que determina cuándo se debe detener el entrenamiento. Si la mejora en la pérdida es menor que el valor de tolerancia durante un número dado de iteraciones, entonces el entrenamiento se detiene. Esto puede ayudar a evitar el sobreajuste y a acelerar el entrenamiento al evitar iteraciones innecesarias.</p>
+<h3>Tamaño del Lote (batch_size)</h3>
+<p>El tamaño del lote se refiere a cuántas muestras de entrenamiento se utilizan en una única iteración de entrenamiento. Un tamaño de lote más grande puede acelerar el entrenamiento, pero puede ser más difícil de optimizar y requerir más memoria.</p>
+<h3>Tasa de Aprendizaje Inicial (learning_rate_init)</h3>
+<p>La tasa de aprendizaje inicial es la tasa a la que se ajustan los pesos durante el entrenamiento. Una tasa de aprendizaje más alta puede llevar a un entrenamiento más rápido, pero también puede resultar en una convergencia inestable. Por otro lado, una tasa de aprendizaje más baja puede hacer que el entrenamiento sea más lento, pero puede llevar a un modelo final más preciso.</p>
+<h3>Momentum</h3>
+<p>El momentum es un término que se utiliza en los optimizadores basados en gradiente para ayudar a acelerar el entrenamiento. Agrega una fracción del cambio de peso de la iteración anterior a la actual, lo que puede ayudar a acelerar la convergencia y evitar los mínimos locales.</p>
+<h3>Tasa de Aprendizaje (learning_rate)</h3>
+<p>La tasa de aprendizaje controla cuánto cambian los pesos en respuesta a la estimación de error en cada actualización de peso. Los valores pequeños permiten que la red aprenda lentamente, reduciendo la posibilidad de saltar sobre soluciones óptimas. Los valores grandes permiten que la red aprenda rápidamente, pero con el riesgo de saltar sobre soluciones óptimas.</p>
+<h2>Conclusión</h2>
+<p>En resumen, tanto los parámetros como los hiperparámetros juegan un papel crucial en el rendimiento de las redes neuronales. La elección y ajuste cuidadoso de los hiperparámetros puede tener un impacto significativo en el rendimiento del modelo final. Aunque existe un conocimiento general sobre qué valores de hiperparámetros suelen funcionar bien, la mejor configuración puede variar dependiendo del problema específico y los datos disponibles. Por lo tanto, la experimentación y el ajuste son a menudo necesarios para encontrar la mejor configuración.</p>
+</div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Literature review: Physics-Informed Machine Learning</title>
         <author>
