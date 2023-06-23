@@ -3,30 +3,32 @@
     <title>Machine Learning &amp; Partial Differential Equations</title>
     <link href="https://jmmachadol.github.io/blog_ml-pde/feed.xml" rel="self" />
     <link href="https://jmmachadol.github.io/blog_ml-pde" />
-    <updated>2023-06-23T17:14:49-05:00</updated>
+    <updated>2023-06-23T17:21:51-05:00</updated>
     <author>
         <name>Jose Manuel Machado-Loaiza</name>
     </author>
     <id>https://jmmachadol.github.io/blog_ml-pde</id>
 
     <entry>
-        <title>Parámetros e hiperparámetros de las redes neuronales. ¿Qué son y cuáles son sus diferencias?</title>
+        <title>Parámetros e hiperparámetros de las redes neuronales</title>
         <author>
             <name>Jose Manuel Machado-Loaiza</name>
         </author>
         <link href="https://jmmachadol.github.io/blog_ml-pde/parametros-e-hiperparametros-de-las-redes-neuronales-que-son-y-cuales-son-sus-diferencias.html"/>
         <id>https://jmmachadol.github.io/blog_ml-pde/parametros-e-hiperparametros-de-las-redes-neuronales-que-son-y-cuales-son-sus-diferencias.html</id>
 
-        <updated>2023-06-23T17:14:49-05:00</updated>
+        <updated>2023-06-23T17:21:51-05:00</updated>
             <summary>
                 <![CDATA[
-                    En el campo del aprendizaje automático y las redes neuronales, los términos "parámetros" e "hiperparámetros" son a menudo fuentes de confusión. En esta entrada del blog, desentrañaremos estos conceptos, explicaremos su importancia y mostraremos sus diferencias. Los parámetros son las variables internas de un modelo&hellip;
+                    ¿Qué son y cuáles son sus diferencias? En el campo del aprendizaje automático y las redes neuronales, los términos "parámetros" e "hiperparámetros" son a menudo fuentes de confusión. En esta entrada del blog, desentrañaremos estos conceptos, explicaremos su importancia y mostraremos sus diferencias. Los parámetros&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <div class="container">
-<p class="lead">En el campo del aprendizaje automático y las redes neuronales, los términos "parámetros" e "hiperparámetros" son a menudo fuentes de confusión. En esta entrada del blog, desentrañaremos estos conceptos, explicaremos su importancia y mostraremos sus diferencias.</p>
+<h2>¿Qué son y cuáles son sus diferencias?</h2>
+<p> </p>
+<p>En el campo del aprendizaje automático y las redes neuronales, los términos "parámetros" e "hiperparámetros" son a menudo fuentes de confusión. En esta entrada del blog, desentrañaremos estos conceptos, explicaremos su importancia y mostraremos sus diferencias.</p>
 <h2>¿Qué son los parámetros?</h2>
 <p>Los parámetros son las variables internas de un modelo que se ajustan durante el entrenamiento de la red neuronal. Estos incluyen los pesos y sesgos en una red neuronal. Durante el entrenamiento, el algoritmo de aprendizaje busca el valor óptimo de estos parámetros para minimizar el error de predicción del modelo. Estos parámetros son fundamentales para el rendimiento del modelo, ya que determinan la forma en que la red neuronal procesa las entradas para producir una salida. Su optimización adecuada puede marcar la diferencia entre un modelo altamente preciso y uno que apenas funciona.</p>
 <h2>¿Qué son los hiperparámetros?</h2>
