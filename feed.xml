@@ -3,7 +3,7 @@
     <title>Machine Learning &amp; Partial Differential Equations</title>
     <link href="https://jmmachadol.github.io/blog_ml-pde/feed.xml" rel="self" />
     <link href="https://jmmachadol.github.io/blog_ml-pde" />
-    <updated>2023-06-23T17:21:51-05:00</updated>
+    <updated>2023-06-23T17:37:50-05:00</updated>
     <author>
         <name>Jose Manuel Machado-Loaiza</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://jmmachadol.github.io/blog_ml-pde/parametros-e-hiperparametros-de-las-redes-neuronales-que-son-y-cuales-son-sus-diferencias.html"/>
         <id>https://jmmachadol.github.io/blog_ml-pde/parametros-e-hiperparametros-de-las-redes-neuronales-que-son-y-cuales-son-sus-diferencias.html</id>
 
-        <updated>2023-06-23T17:21:51-05:00</updated>
+        <updated>2023-06-23T17:37:50-05:00</updated>
             <summary>
                 <![CDATA[
                     ¿Qué son y cuáles son sus diferencias? En el campo del aprendizaje automático y las redes neuronales, los términos "parámetros" e "hiperparámetros" son a menudo fuentes de confusión. En esta entrada del blog, desentrañaremos estos conceptos, explicaremos su importancia y mostraremos sus diferencias. Los parámetros&hellip;
