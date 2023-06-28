@@ -3,12 +3,203 @@
     <title>Machine Learning &amp; Partial Differential Equations</title>
     <link href="https://jmmachadol.github.io/blog_ml-pde/feed.xml" rel="self" />
     <link href="https://jmmachadol.github.io/blog_ml-pde" />
-    <updated>2023-06-23T17:37:50-05:00</updated>
+    <updated>2023-06-28T18:53:04-05:00</updated>
     <author>
         <name>Jose Manuel Machado-Loaiza</name>
     </author>
     <id>https://jmmachadol.github.io/blog_ml-pde</id>
 
+    <entry>
+        <title>Búsqueda de Hiperparámetros</title>
+        <author>
+            <name>Jose Manuel Machado-Loaiza</name>
+        </author>
+        <link href="https://jmmachadol.github.io/blog_ml-pde/busqueda-de-hiperparametros.html"/>
+        <id>https://jmmachadol.github.io/blog_ml-pde/busqueda-de-hiperparametros.html</id>
+
+        <updated>2023-06-28T18:53:04-05:00</updated>
+            <summary>
+                <![CDATA[
+                    Introducción La optimización de hiperparámetros es un componente esencial del entrenamiento de modelos de aprendizaje automático, como las redes neuronales multicapa (MLP). Los hiperparámetros son configuraciones del modelo que deben ser definidas antes del entrenamiento, y pueden influir significativamente en la capacidad del modelo para&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <div id="content">
+<h2>Introducción</h2>
+<p>La optimización de hiperparámetros es un componente esencial del entrenamiento de modelos de aprendizaje automático, como las redes neuronales multicapa (MLP). Los hiperparámetros son configuraciones del modelo que deben ser definidas antes del entrenamiento, y pueden influir significativamente en la capacidad del modelo para aprender de los datos y generalizar a nuevos ejemplos. En este entrada, exploramos y comparamos tres técnicas ampliamente utilizadas para optimizar hiperparámetros: Grid Search, Randomized Search y Bayesian Search.</p>
+<h2>1. Grid Search</h2>
+<p>El Grid Search, o búsqueda por cuadrícula, es una técnica de optimización de hiperparámetros que evalúa sistemáticamente todas las posibles combinaciones de hiperparámetros definidas. Aunque este enfoque exhaustivo puede ser costoso en términos de recursos computacionales, garantiza que se examine cada posible combinación de hiperparámetros, ofreciendo la posibilidad de encontrar el conjunto óptimo con un alto grado de certeza.</p>
+<p>El Grid Search es particularmente útil cuando se dispone de suficientes recursos computacionales y el espacio de búsqueda es razonablemente pequeño. Sin embargo, su eficiencia disminuye a medida que aumenta el número de hiperparámetros y sus posibles valores, ya que el tiempo y los recursos necesarios crecen exponencialmente.</p>
+<p> </p>
+<h2>2. Randomized Search</h2>
+<p>El Randomized Search, o búsqueda aleatoria, aborda algunas de las limitaciones del Grid Search al seleccionar aleatoriamente un subconjunto de combinaciones de hiperparámetros para evaluar. Esto puede resultar en una mayor eficiencia sin sacrificar demasiado la calidad de la solución encontrada.</p>
+<p>A diferencia del Grid Search, que siempre probará las mismas combinaciones de hiperparámetros, el Randomized Search puede explorar una variedad más amplia de valores, lo que puede resultar beneficioso si el espacio de hiperparámetros es muy grande o si la distribución de los valores óptimos es desconocida.</p>
+<p> </p>
+<h2>3. Bayesian Search</h2>
+<p>El Bayesian Search, o búsqueda bayesiana, es una técnica de optimización que utiliza métodos de estadística bayesiana para guiar la búsqueda de hiperparámetros. A diferencia de las técnicas anteriores, la búsqueda bayesiana utiliza los resultados de las evaluaciones anteriores para informar las elecciones de los futuros hiperparámetros a probar.</p>
+<p>La principal ventaja de la búsqueda bayesiana es que puede encontrar conjuntos óptimos de hiperparámetros más rápidamente que el Grid Search y el Randomized Search, especialmente en espacios de alta dimensión. Sin embargo, puede ser más difícil de implementar y comprender que las técnicas más simples.</p>
+<h2>Comparación y Conclusiones</h2>
+<table>
+<tbody>
+<tr>
+<th>Técnica</th>
+<th>Ventajas</th>
+<th>Desventajas</th>
+</tr>
+<tr>
+<td>Grid Search</td>
+<td>Exhaustivo, fácil de implementar y entender</td>
+<td>Costoso computacionalmente, no escalable con muchas dimensiones</td>
+</tr>
+<tr>
+<td>Randomized Search</td>
+<td>Eficiente, escalable, exploración diversa de hiperparámetros</td>
+<td>Posible falta de precisión, resultados pueden variar</td>
+</tr>
+<tr>
+<td>Bayesian Search</td>
+<td>Rápido en espacios de alta dimensión, aprende de iteraciones anteriores</td>
+<td>Más complejo, implementación puede ser desafiante</td>
+</tr>
+</tbody>
+</table>
+<p>Optimizar hiperparámetros es vital en la formación de modelos de redes neuronales. Elegir los hiperparámetros correctos puede marcar la diferencia entre un modelo mediocre y uno excepcional. Aunque las técnicas avanzadas como la búsqueda bayesiana pueden ofrecer beneficios significativos en términos de eficiencia y precisión, las técnicas más simples como el Grid Search y el Randomized Search siguen siendo valiosas y pueden ser más apropiadas en determinadas situaciones. Como siempre, la elección de la técnica dependerá del problema específico, los datos disponibles y los recursos de cómputo.</p>
+<h2>Referencias</h2>
+<ul>
+<li>Bergstra, J., &amp; Bengio, Y. (2012). Random search for hyper-parameter optimization. Journal of Machine Learning Research, 13(Feb), 281-305.</li>
+<li>Snoek, J., Larochelle, H., &amp; Adams, R. P. (2012). Practical bayesian optimization of machine learning algorithms. In Advances in neural information processing systems (pp. 2951-2959).</li>
+<li>Probst, P., Bischl, B., &amp; Boulesteix, A. L. (2019). Tunability: Importance of hyperparameters of machine learning algorithms. Journal of Machine Learning Research, 20(53), 1-32.</li>
+</ul>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Teorema de Aproximación y Retropropagación</title>
+        <author>
+            <name>Jose Manuel Machado-Loaiza</name>
+        </author>
+        <link href="https://jmmachadol.github.io/blog_ml-pde/oe1.html"/>
+        <id>https://jmmachadol.github.io/blog_ml-pde/oe1.html</id>
+
+        <updated>2023-06-28T18:52:05-05:00</updated>
+            <summary>
+                <![CDATA[
+                    Teorema de Aproximación Universal Un perceptrón multicapa (MLP) entrenado con el algoritmo de retropropagación puede ser visto como una herramienta efectiva para realizar un mapeo de entrada-salida no lineal. La relación de entrada-salida de una red define un mapeo desde un espacio de entrada euclidiano&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <div id="content">
+<h2>Teorema de Aproximación Universal</h2>
+<p>Un perceptrón multicapa (MLP) entrenado con el algoritmo de retropropagación puede ser visto como una herramienta efectiva para realizar un mapeo de entrada-salida no lineal. La relación de entrada-salida de una red define un mapeo desde un espacio de entrada euclidiano <strong>m<sub>0</sub></strong>-dimensional a un espacio de salida euclidiano <strong>M</strong>-dimensional, que es infinitamente diferenciable en términos continuos si la función de activación también lo es (Cybenko, 1989).</p>
+<figure class="post__image">Desde esta perspectiva de mapeo de entrada-salida, surge una pregunta fundamental: ¿cuál es el número mínimo de capas ocultas necesarias en un MLP para proporcionar una aproximación de cualquier mapeo continuo? Esta pregunta nos lleva al teorema de aproximación universal (Haykin, 2009).
+<img loading="lazy"  src="https://jmmachadol.github.io/blog_ml-pde/media/posts/8/oe.png" alt="" width="1024" height="768" sizes="100vw" srcset="https://jmmachadol.github.io/blog_ml-pde/media/posts/8/responsive/oe-xs.png 300w ,https://jmmachadol.github.io/blog_ml-pde/media/posts/8/responsive/oe-sm.png 480w ,https://jmmachadol.github.io/blog_ml-pde/media/posts/8/responsive/oe-md.png 768w ,https://jmmachadol.github.io/blog_ml-pde/media/posts/8/responsive/oe-lg.png 1024w ,https://jmmachadol.github.io/blog_ml-pde/media/posts/8/responsive/oe-xl.png 1360w ,https://jmmachadol.github.io/blog_ml-pde/media/posts/8/responsive/oe-2xl.png 1600w"></figure>
+<p>El teorema de aproximación universal es un resultado clave en la teoría de las redes neuronales. Se establece que un MLP con una sola capa oculta puede aproximar cualquier función continua en un dominio compacto, siempre que la función de activación en la capa oculta sea una función no constante, acotada y continuamente diferenciable (Hornik, 1991). Este resultado fue extendido por Leshno et al. (1993), quienes demostraron que las redes neuronales con una función de activación no polinómica también pueden aproximar cualquier función continua.</p>
+<p>Es importante resaltar que el teorema de aproximación universal no proporciona una guía sobre la cantidad de neuronas necesarias en la capa oculta para lograr una aproximación precisa, ni proporciona una estrategia para entrenar la red para alcanzar dicha aproximación. Estos son problemas que dependen de la función específica a ser aproximada y de la arquitectura de la red neuronal en cuestión.</p>
+<h2>Implicaciones del Teorema de Aproximación Universal</h2>
+<p>El teorema de aproximación universal tiene tres implicaciones importantes:</p>
+<ol>
+<li>Las redes neuronales multicapa son capaces, en principio, de aproximar cualquier función continua, lo que indica que pueden ser utilizadas en una amplia gama de aplicaciones.</li>
+<li>Las funciones de activación no lineales son cruciales para que las redes neuronales sean capaces de aproximar efectivamente funciones complejas y no lineales.</li>
+<li>Aunque el teorema de aproximación universal establece que una sola capa oculta es suficiente, en la práctica, las redes con múltiples capas ocultas pueden ser más eficientes en términos de la cantidad de neuronas requeridas y la facilidad de entrenamiento (Goodfellow et al., 2016).</li>
+</ol>
+<h2>Algoritmo de Retropropagación</h2>
+<figure class="post__image">El algoritmo de retropropagación es una técnica utilizada para entrenar redes neuronales. Se basa en el método del gradiente descendente y la optimización de una función de pérdida con respecto a los pesos de la red. Consta de dos fases: propagación hacia adelante y propagación hacia atrás (Rumelhart et al., 1986).
+<img loading="lazy"  src="https://jmmachadol.github.io/blog_ml-pde/media/posts/8/maxresdefault.jpg" alt="" width="1280" height="720" sizes="100vw" srcset="https://jmmachadol.github.io/blog_ml-pde/media/posts/8/responsive/maxresdefault-xs.jpg 300w ,https://jmmachadol.github.io/blog_ml-pde/media/posts/8/responsive/maxresdefault-sm.jpg 480w ,https://jmmachadol.github.io/blog_ml-pde/media/posts/8/responsive/maxresdefault-md.jpg 768w ,https://jmmachadol.github.io/blog_ml-pde/media/posts/8/responsive/maxresdefault-lg.jpg 1024w ,https://jmmachadol.github.io/blog_ml-pde/media/posts/8/responsive/maxresdefault-xl.jpg 1360w ,https://jmmachadol.github.io/blog_ml-pde/media/posts/8/responsive/maxresdefault-2xl.jpg 1600w"></figure>
+<p>Durante la propagación hacia adelante, la red recibe una entrada y genera una salida. La función de pérdida, que mide la discrepancia entre la salida de la red y la salida deseada, se evalúa utilizando la salida generada. En la fase de propagación hacia atrás, se calculan las derivadas parciales de la función de pérdida con respecto a cada peso y sesgo de la red utilizando la regla de la cadena. Estas derivadas parciales se utilizan para actualizar los pesos y sesgos de la red a través del método del gradiente descendente.</p>
+<p>El proceso de retropropagación se repite hasta que se alcanza un criterio de convergencia definido, como un error de entrenamiento mínimo o un número máximo de épocas de entrenamiento.</p>
+<h2>Importancia y Pertinencia para las Redes Neuronales</h2>
+<p>Tanto el Teorema de Aproximación Universal como el Algoritmo de Retropropagación son de gran importancia y pertinencia para las redes neuronales por las siguientes razones:</p>
+<ol>
+<li>El Teorema de Aproximación Universal demuestra que las redes neuronales tienen la capacidad de aproximar cualquier función continua, lo que las convierte en herramientas poderosas para modelar y resolver problemas complejos en diversas áreas.</li>
+<li>La retropropagación es esencial para el entrenamiento de redes neuronales, permitiendo que las redes aprendan a partir de datos y mejoren su rendimiento a medida que se ajustan los pesos y parámetros.</li>
+<li>La combinación del Teorema de Aproximación Universal y la retropropagación proporciona una base teórica y práctica sólida para el diseño y entrenamiento de redes neuronales, lo que permite su aplicación en una amplia gama de problemas y tareas.</li>
+</ol>
+<h2>Referencias</h2>
+<ul>
+<li>Cybenko, G. (1989). Approximation by Superpositions of a Sigmoidal Function. Mathematics of Control, Signals, and Systems, 2, 303–314.</li>
+<li>Haykin, S. (2009). Neural Networks and Learning Machines (3rd Edition). Pearson.</li>
+<li>Hornik, K. (1991). Approximation Capabilities of Multilayer Feedforward Networks. Neural Networks, 4(2), 251–257.</li>
+<li>Leshno, M., Lin, V., Pinkus, A., &amp; Schocken, S. (1993). Multilayer feedforward networks with a nonpolynomial activation function can approximate any function. Neural Networks, 6(6), 861–867.</li>
+<li>Goodfellow, I., Bengio, Y., &amp; Courville, A. (2016). Deep Learning. MIT Press.</li>
+<li>Rumelhart, D. E., Hinton, G. E., &amp; Williams, R. J. (1986). Learning representations by back-propagating errors. Nature, 323, 533–536.</li>
+</ul>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Perceptrón Multicapa: una mirada a las redes neuronales</title>
+        <author>
+            <name>Jose Manuel Machado-Loaiza</name>
+        </author>
+        <link href="https://jmmachadol.github.io/blog_ml-pde/perceptron-multicapa-una-mirada-a-las-redes-neuronales.html"/>
+        <id>https://jmmachadol.github.io/blog_ml-pde/perceptron-multicapa-una-mirada-a-las-redes-neuronales.html</id>
+
+        <updated>2023-06-28T18:38:07-05:00</updated>
+            <summary>
+                <![CDATA[
+                    Introducción al Perceptrón Multicapa (MLP) En el mundo de las redes neuronales, el perceptrón multicapa (MLP) tiene un lugar prominente. Es una arquitectura de red que ha sido fundamental para el avance de los algoritmos de aprendizaje profundo. Un MLP consiste en una serie de&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h2>Introducción al Perceptrón Multicapa (MLP)</h2>
+<p>En el mundo de las redes neuronales, el perceptrón multicapa (MLP) tiene un lugar prominente. Es una arquitectura de red que ha sido fundamental para el avance de los algoritmos de aprendizaje profundo. Un MLP consiste en una serie de capas de nodos (o "neuronas"), donde cada capa se conecta a la siguiente, creando una estructura en cascada. Estas redes pueden manejar patrones complejos y no lineales, lo que las hace extremadamente útiles en una variedad de aplicaciones.</p>
+<figure><figure class="post__image"><img loading="lazy"  style="width: 806px;" src="https://jmmachadol.github.io/blog_ml-pde/media/posts/7/mlp_regressor-3.jpg" alt="" height="387" sizes="100vw" srcset="https://jmmachadol.github.io/blog_ml-pde/media/posts/7/responsive/mlp_regressor-3-xs.jpg 300w ,https://jmmachadol.github.io/blog_ml-pde/media/posts/7/responsive/mlp_regressor-3-sm.jpg 480w ,https://jmmachadol.github.io/blog_ml-pde/media/posts/7/responsive/mlp_regressor-3-md.jpg 768w ,https://jmmachadol.github.io/blog_ml-pde/media/posts/7/responsive/mlp_regressor-3-lg.jpg 1024w ,https://jmmachadol.github.io/blog_ml-pde/media/posts/7/responsive/mlp_regressor-3-xl.jpg 1360w ,https://jmmachadol.github.io/blog_ml-pde/media/posts/7/responsive/mlp_regressor-3-2xl.jpg 1600w"></figure>
+<figcaption>Figura 1: Esquema de un perceptrón multicapa con dos capas ocultas (Fuente: Haykin, 2009).</figcaption>
+</figure>
+<h2>Características del MLP</h2>
+<p>Existen varias características clave que definen un MLP (Goodfellow et al., 2016; Rumelhart et al., 1986; Haykin, 2009):</p>
+<ul>
+<li>Cada neurona en la red utiliza una función de activación que es diferenciable. Si bien las funciones de activación no lineales son comunes, también se pueden usar funciones de activación lineales en ciertos casos.</li>
+<li>La red consiste en una capa de entrada, una o más capas ocultas, y una capa de salida. Las capas ocultas son aquellas que no están directamente conectadas con las entradas ni las salidas de la red.</li>
+<li>La red muestra un alto grado de conectividad, determinado por los pesos sinápticos de la red. Las neuronas pueden conectarse de muchas formas diferentes para crear tipos especiales de redes (por ejemplo, redes convolucionales o recurrentes). En esta entrada, consideraremos que las redes están completamente conectadas, a menos que se indique lo contrario.</li>
+</ul>
+<h2>¿Qué es un Perceptrón?</h2>
+<p>Un perceptrón se puede definir como una neurona artificial que toma un conjunto de entradas y produce una única salida a través de un proceso que implica la suma ponderada de las entradas, un sesgo y una función de activación. Aunque las funciones de activación no lineales diferenciables son comunes, también se pueden emplear funciones de activación lineales en ciertos casos. Vale la pena mencionar que esta definición se refiere al comportamiento de una única neurona en la red neuronal, y en el caso de una red neuronal con múltiples salidas, la salida final pertenecerá a R<sup>m</sup>. Un perceptrón logra esto aplicando tres pasos fundamentales a las entradas (Goodfellow et al., 2016):</p>
+<ol>
+<li>Suma el producto de cada entrada con un peso correspondiente. Cada peso se puede interpretar como una medida de cuán sensible es un perceptrón a cada entrada individual.</li>
+<li>Añade un sesgo a esta suma. Este sesgo se puede interpretar como una medida de cuán activa sería una neurona si todas las entradas fueran cero.</li>
+<li>Pasa este valor a través de una función de activación.</li>
+</ol>
+<p>Por lo tanto, la activación de un perceptrón se puede representar como:</p>
+<p><strong>a = σ(Σ(x<sub>i</sub> * w<sub>i</sub>) + β)</strong></p>
+<p>donde <strong>a</strong> es la activación, <strong>σ</strong> es la función de activación, <strong>x<sub>i</sub></strong> son las entradas, <strong>w<sub>i</sub></strong> son los pesos, y <strong>β</strong> es el sesgo.</p>
+<h2>Ejemplo de Regresión con MLP</h2>
+<p>Para entender mejor cómo se puede utilizar un perceptrón multicapa, veamos un ejemplo sencillo de un problema de regresión. Utilizaremos la biblioteca scikit-learn de Python, que proporciona una implementación eficiente de MLP para la regresión (MLPRegressor).</p>
+<pre><code>
+            from sklearn.neural_network import MLPRegressor
+            from sklearn.datasets import make_regression
+            from sklearn.model_selection import train_test_split
+
+            # Generamos un dataset para regresión
+            X, y = make_regression(n_samples=200, random_state=1)
+
+            # Dividimos el dataset en conjunto de entrenamiento y prueba
+            X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=1)
+
+            # Creamos el modelo de MLP
+            regr = MLPRegressor(random_state=1, max_iter=500).fit(X_train, y_train)
+
+            # Evaluamos el modelo en el conjunto de prueba
+            score = regr.score(X_test, y_test)
+            print('Score:', score)
+        </code></pre>
+<h2>Conclusión</h2>
+<p>En resumen, el perceptrón multicapa es una herramienta potente y flexible en el campo de las redes neuronales y el aprendizaje profundo. Con sus múltiples capas de neuronas interconectadas, es capaz de aprender y representar patrones complejos y no lineales. Aunque hay mucho más que se puede explorar en relación con los MLPs, esta entrada proporciona una introducción sólida a sus conceptos fundamentales.</p>
+<h2>Referencias</h2>
+<ul>
+<li>Goodfellow, I., Bengio, Y., &amp; Courville, A. (2016). Deep Learning. MIT Press.</li>
+<li>Rumelhart, D. E., Hinton, G. E., &amp; Williams, R. J. (1986). Learning representations by back-propagating errors. Nature, 323(6088), 533–536.</li>
+<li>Haykin, S. (2009). Neural Networks and Learning Machines (3rd Edition). Pearson.</li>
+<li>scikit-learn developers (2022). MLPRegressor. Retrieved from: <a href="https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPRegressor.html">https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPRegressor.html</a></li>
+</ul>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Parámetros e hiperparámetros de las redes neuronales</title>
         <author>
@@ -17,7 +208,7 @@
         <link href="https://jmmachadol.github.io/blog_ml-pde/parametros-e-hiperparametros-de-las-redes-neuronales-que-son-y-cuales-son-sus-diferencias.html"/>
         <id>https://jmmachadol.github.io/blog_ml-pde/parametros-e-hiperparametros-de-las-redes-neuronales-que-son-y-cuales-son-sus-diferencias.html</id>
 
-        <updated>2023-06-23T17:37:50-05:00</updated>
+        <updated>2023-06-28T18:38:17-05:00</updated>
             <summary>
                 <![CDATA[
                     ¿Qué son y cuáles son sus diferencias? En el campo del aprendizaje automático y las redes neuronales, los términos "parámetros" e "hiperparámetros" son a menudo fuentes de confusión. En esta entrada del blog, desentrañaremos estos conceptos, explicaremos su importancia y mostraremos sus diferencias. Los parámetros&hellip;
